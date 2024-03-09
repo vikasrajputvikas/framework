@@ -15,7 +15,7 @@ public class UITest {
 		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new FirefoxDriver();
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		driver.get("https://google.com");
 		Thread.sleep(4000);
 		driver.quit();
